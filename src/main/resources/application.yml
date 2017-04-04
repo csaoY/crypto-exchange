@@ -1,0 +1,12 @@
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/test
+    username: root
+    password: password
+    hikari:
+      auto-commit: false
+      connection-timeout: 5000
+      max-lifetime: 1800000
+      maximum-pool-size: 50
+      pool-name: HikariCP
